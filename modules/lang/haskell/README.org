@@ -68,6 +68,6 @@ After installing your preferred formatter, make sure to set
 Make sure to configure the lsp to use your perfered formatter, e.g.:
 #+BEGIN_SRC elisp
 ;; ~/.doom.d/config.el
-(after!
+(after! haskell
   (setq lsp-haskell-formatting-provider "brittany"))
 #+END_SRC
